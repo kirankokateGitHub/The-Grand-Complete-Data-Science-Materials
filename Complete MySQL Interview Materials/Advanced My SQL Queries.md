@@ -67,7 +67,8 @@ For odd rows:
 SELECT * FROM table_name WHERE MOD(id,2) = 1;
 
 ```
-MOD(id, 2) calculates the remainder when id is divided by 
+MOD(id, 2) calculates the remainder when id is divided by 2
+
 For even rows:
 
 ```sql
