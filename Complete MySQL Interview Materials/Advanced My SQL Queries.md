@@ -353,6 +353,7 @@ ON e1.department_id = e2.department_id
 WHERE e1.salary > e2.avg_salary;
 
 ```
+INNER JOIN is essentially the same as JOIN; it's just explicitly specifying that it's an inner join. The term "INNER" is often omitted, and you can simply write JOIN for brevity. However, using INNER JOIN explicitly makes the intention clear in the SQL code.
 **37. Retrieve all pairs of students who have the same scores.**
 
 **Answer**:
