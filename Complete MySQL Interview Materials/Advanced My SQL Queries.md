@@ -327,7 +327,9 @@ SELECT e1.*
 FROM employees e1 
 INNER JOIN employees e2 ON e1.manager_id = e2.id 
 WHERE e2.salary > 100000;
-
+```
+SELECT e1.* - This part of the statement indicates that you want to select all columns (*) from a table or alias called e1.
+```
 ```
 **35. How would you get the rank of students based on their scores in descending order?**
 
